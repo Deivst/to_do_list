@@ -1,0 +1,51 @@
+# Sistema de Gestión de Tareas en C++
+
+## 📋 Descripción
+
+El **Sistema de Gestión de Tareas en C++** es una aplicación de consola que permite a los usuarios organizar y gestionar sus tareas diarias de manera eficiente. Es ideal para principiantes que desean practicar conceptos fundamentales de C++ como estructuras, vectores y manejo de archivos.
+
+## 🖥️ Características
+
+- **Agregar Tareas**: Introduce nuevas tareas con descripción, fecha límite y prioridad.
+- **Listar Tareas**: Muestra todas las tareas almacenadas.
+- **Marcar como Completadas**: Actualiza el estado de una tarea.
+- **Eliminar Tareas**: Elimina tareas específicas.
+- **Guardar y Cargar**: Persiste los datos mediante archivos.
+
+## 🚀 Instalación
+### 📦 Requisitos
+
+- **Compilador de C++**: GCC, Clang o similar.
+- **IDE/Editor de Código**: Visual Studio Code, CLion, Code::Blocks, etc.
+- **Sistema Operativo**: Compatible con Windows, macOS y Linux.
+
+### 🔧 Pasos para Compilar y Ejecutar
+
+1. **Instalar un Compilador de C++**
+
+   - **Windows**:
+     - **MinGW**:
+       1. Descarga el instalador de MinGW desde [MinGW official website](http://www.mingw.org/).
+       2. Instala MinGW y asegúrate de incluir `g++` durante la instalación.
+       3. Agrega la ruta de MinGW (`C:\MinGW\bin`) a las variables de entorno del sistema.
+     - **Visual Studio**:
+       1. Descarga e instala [Visual Studio](https://visualstudio.microsoft.com/) con el componente "Desarrollo de escritorio con C++".
+
+   - **macOS**:
+     1. Instala Xcode desde la App Store.
+     2. Abre la terminal y ejecuta:
+        ```bash
+        xcode-select --install
+        ```
+   
+   - **Linux**:
+     1. Abre la terminal.
+     2. Instala `g++` usando el gestor de paquetes de tu distribución. Por ejemplo, en Ubuntu:
+        ```bash
+        sudo apt update
+        sudo apt install g++
+        ```
+
+   ```bash
+   git clone https://github.com/Deivst/to_do_list
+   cd to_do_list
